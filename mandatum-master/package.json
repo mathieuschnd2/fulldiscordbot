@@ -1,0 +1,38 @@
+{
+  "name": "mandatum",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "loop": "nodemon -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tycrek/mandatum.git"
+  },
+  "author": "tycrek",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tycrek/mandatum/issues"
+  },
+  "homepage": "https://github.com/tycrek/mandatum#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.4.1",
+    "ffmpeg-static": "^4.2.7",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.32",
+    "node-fetch": "^2.6.1",
+    "node-schedule": "^1.3.2",
+    "pino": "^6.7.0",
+    "pino-pretty": "^4.3.0",
+    "scrape-youtube": "^1.1.0",
+    "tycrek-certs-custom": "^0.1.0",
+    "uuid": "^8.3.1",
+    "ytdl-core": "^4.0.5",
+    "ytdl-core-discord": "^1.2.4"
+  }
+}
